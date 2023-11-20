@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/Infinix-X6817
+DEVICE_PATH := device/infinix/X6817
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -32,7 +32,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a53
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := Infinix-X6817
+TARGET_BOOTLOADER_BOARD_NAME := X6817
 TARGET_NO_BOOTLOADER := true
 
 # Display
