@@ -100,7 +100,6 @@ BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # System as root
 BOARD_SUPPRESS_SECURE_ERASE := true
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
 
 # Workaround for copying error vendor files to recovery ramdisk
 TARGET_COPY_OUT_PRODUCT := product
